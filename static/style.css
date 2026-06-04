@@ -1,0 +1,91 @@
+body{
+    background: linear-gradient(
+        135deg,
+        #0f172a,
+        #1e293b,
+        #312e81
+    );
+
+    min-height:100vh;
+}
+
+.card{
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(15px);
+    border:1px solid rgba(255,255,255,0.2);
+
+    color:white;
+
+    border-radius:20px;
+
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card-header{
+    font-weight:bold;
+    font-size:20px;
+}
+
+.progress{
+    height:35px;
+    border-radius:20px;
+}
+
+.progress-bar{
+    font-size:16px;
+    font-weight:bold;
+}
+
+.table{
+    color:white;
+}
+
+.table th{
+    background:#2563eb;
+}
+
+.badge{
+    padding:10px;
+    font-size:14px;
+}
+
+.btn-primary{
+
+    background:
+    linear-gradient(
+        45deg,
+        #2563eb,
+        #7c3aed
+    );
+
+    border:none;
+}
+
+.btn-success{
+
+    background:
+    linear-gradient(
+        45deg,
+        #22c55e,
+        #06b6d4
+    );
+
+    border:none;
+}
+
+h1{
+    font-weight:800;
+}
+
+pre{
+    color:white;
+    white-space:pre-wrap;
+}
+
+.text-muted{
+    color:#d1d5db !important;
+}

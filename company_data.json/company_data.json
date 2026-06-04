@@ -1,0 +1,22 @@
+{
+  "Amazon": {
+    "skills": ["DSA", "Python", "OOP", "Problem Solving"],
+    "cgpa": 7.5
+  },
+  "Microsoft": {
+    "skills": ["DSA", "Python", "System Design", "OOP"],
+    "cgpa": 7.0
+  },
+  "TCS Digital": {
+    "skills": ["Java", "Python", "DBMS", "Aptitude"],
+    "cgpa": 6.5
+  },
+  "Infosys": {
+    "skills": ["Programming", "DBMS", "OOP"],
+    "cgpa": 6.0
+  },
+  "Accenture": {
+    "skills": ["Programming", "Communication", "Aptitude"],
+    "cgpa": 6.0
+  }
+}
