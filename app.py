@@ -32,7 +32,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 db = pymysql.connect(
     host="mysql.railway.internal",
     user="root",
-    password="root123",
+    password="eAVFFDorrmWfoUIflnaSphpJZxTYWfeN",
     database="railway",
     port=3306
 )
