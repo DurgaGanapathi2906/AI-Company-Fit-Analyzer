@@ -30,11 +30,11 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 # ==========================
 
 db = pymysql.connect(
-    host=os.getenv("MYSQLHOST"),
-    user=os.getenv("MYSQLUSER"),
-    password=os.getenv("MYSQLPASSWORD"),
-    database=os.getenv("MYSQLDATABASE"),
-    port=int(os.getenv("MYSQLPORT"))
+    host="mysql.railway.internal",
+    user="root",
+    password="root123",
+    database="railway",
+    port=3306
 )
 
 cursor = db.cursor()
