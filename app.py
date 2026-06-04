@@ -30,10 +30,11 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 # ==========================
 
 db = pymysql.connect(
-    host="localhost",
-    user="root",
-    password="root123",
-    database="company_fit_analyzer"
+    host=os.getenv("MYSQLHOST"),
+    user=os.getenv("MYSQLUSER"),
+    password=os.getenv("MYSQLPASSWORD"),
+    database=os.getenv("MYSQLDATABASE"),
+    port=int(os.getenv("MYSQLPORT"))
 )
 
 cursor = db.cursor()
