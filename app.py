@@ -10,7 +10,7 @@ app = Flask(__name__)
 # GEMINI CONFIGURATION
 # ==========================
 
-GEMINI_API_KEY = "USE YOUR OWN API KEY"
+GEMINI_API_KEY = "AQ.Ab8RN6KAxDUMuEMUUUj4KExa8VDxijufUGfUDerXnwC7d0yeyg"
 
 genai.configure(api_key=GEMINI_API_KEY)
 
